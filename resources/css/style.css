@@ -1,4 +1,4 @@
-
+/* Header Section */
 .header {
   display: flex;
   justify-content: space-between;
@@ -37,4 +37,65 @@
 
 a {
   color: black;
+}
+
+
+/* Main Content */
+
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.content {
+  display: inline-flex;
+  align-items: flex-start;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  flex-wrap: nowrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  flex-wrap: wrap;
+}
+
+img.cookie {
+  width: 240px;
+  height: 240px;
+}
+
+.lead-story {
+  display: block;
+}
+
+
+
+
+
+
+/* DELETE WHEN DONE */
+
+div {
+  border: 1px solid purple;
 }
